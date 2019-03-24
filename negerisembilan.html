@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Accommodation</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="bg">
+      <div class="first">
+        <div class="name">
+          <p>Broga Bliss Eco Garden, Negeri Sembilan</p>
+        </div>
+        <div class="image">
+          <img class="slide" src="broga1.jpg" alt="broga">
+          <img class="slide" src="broga2.jpg" alt="broga">
+          <img class="slide" src="broga3.jpg" alt="broga">
+        </div>
+        <div class="reviews">
+          <p>R E V I E W S</p>
+        </div>
+          <div class="star">
+            <ul>
+              <li>Facility : &#x2730; &#x2730;</li>
+              <li>Price : &#x2730; &#x2730; &#x2730; &#x2730; &#x2730;</li>
+              <li>Service : &#x2730; &#x2730; &#x2730; &#x2730; &#x2730;</li>
+              <li>Food : &#x2730; &#x2730; &#x2730; &#x2730; &#x2730;</li>
+            </ul>
+          </div>
+        <div class="footer">
+          <button class="button" name="booking" onclick="window.location.href='https://www.brogabliss.com.my/'" ><span>Booking</span></button>
+          <button class="button" name="home" onclick="window.location.href='https://ar.trivago.com/en/pulau-sipadan-75476/hotel/sipadan-kapalai-dive-resort-1031330'"><span>Home </span></button>
+          <button class="button" name="activity" onclick="window.location.href='https://ar.trivago.com/en/pulau-sipadan-75476/hotel/sipadan-kapalai-dive-resort-1031330'"><span>Activity </span></button>
+        </div>
+    </div>
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("slide");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+      </script>
+  </body>
+</html>
