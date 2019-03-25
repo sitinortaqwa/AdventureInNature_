@@ -6,36 +6,33 @@ Group name : BOLD
 Project name : Adventure in Nature
 
 
-Name
-Contributions
-Future Enhancement
-Nabilah Daud
-Pages : Home and   Upcoming Event page
+Name : Nabilah Daud
+Contributions : Home, Upcoming Event and About
+Future Enhancement : 
 
 
-Sharifah Shakirah
-Page : Activities
-Add some transition effects on pictures when choosing the activities.
+Name : Sharifah Shakirah
+Contributions : Activities
+Future Enhancement : Add some transition effects on pictures when choosing the activities and add a comment space at the footer of each activities page
 
-Add a comment space at the footer of each activities page
+Name : Sitinor Taqwa
+Contributions :  Accommodation
+Future Enhancement : Pagination , List state link in a box , State link with hover effect, Link all state
 
-Sitinor Taqwa
-Page : Accommodation
-Pagination 
-List state link in a box
-State link with hover effect
-Link all tstate
-
-Nurul Atiqah
-Page : Location and Logo
-Pop up windows(map) for each location
+Name : Nurul Atiqah
+Contributions : Location and Logo
+Future Enhancement : Pop up windows(map) for each location
 
 
 
 Credits :
+
 i) Google maps https://maps.google.com
+
 ii) CSS Flexbox (Flexible Box) www.w3schools.com
+
 iii) CSS3 Map Pins http://cssdeck.com
+
 iv) Google Images https://www.google.com.my/imghp?hl=en&tab=ri
 
 
