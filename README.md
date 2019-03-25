@@ -3,25 +3,40 @@ Webtech Project
 
 
 Group name : BOLD
+
 Project name : Adventure in Nature
 
 
+
 Name : Nabilah Daud
+
 Contributions : Home, Upcoming Event and About
+
 Future Enhancement : 
 
 
+
 Name : Sharifah Shakirah
+
 Contributions : Activities
+
 Future Enhancement : Add some transition effects on pictures when choosing the activities and add a comment space at the footer of each activities page
 
+
+
 Name : Sitinor Taqwa
+
 Contributions :  Accommodation
+
 Future Enhancement : Pagination , List state link in a box , State link with hover effect, Link all state
 
+
 Name : Nurul Atiqah
+
 Contributions : Location and Logo
+
 Future Enhancement : Pop up windows(map) for each location
+
 
 
 
