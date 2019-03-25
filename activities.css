@@ -42,7 +42,7 @@ body{
   color:white;
   font-family: 'Kaushan Script', cursive;
   font-size: 68px;
-/*   width: 219px; */
+  width: 350px;
   text-align:center;
 }
 p{
@@ -67,7 +67,7 @@ div.column {
   margin: 45px;
   border: 1px solid #ccc;
   float: left;
-  width: 23.3%;
+  width: 219px;
 }
 
 div.column:hover {
