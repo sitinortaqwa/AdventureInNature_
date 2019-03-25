@@ -12,7 +12,7 @@ Name : Nabilah Daud
 
 Contributions : Home, Upcoming Event and About
 
-Future Enhancement : 
+Future Enhancement : Reference to official pages of event and quick navigation to all features.
 
 
 
