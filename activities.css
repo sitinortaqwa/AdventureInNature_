@@ -33,6 +33,7 @@ li a:hover {
 }
 body{
   margin: -8px;
+  background-color: white;
 }
 .title{
   position: absolute;
