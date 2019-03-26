@@ -53,7 +53,7 @@ li a:hover {
   width: 280px;
   height: 350px;
   background-color: rgb(192, 192, 192, 0.8);
-  font-family: 'Cormorant SC';font-size: 30px;
+  font-family: 'Cormorant SC';font-size: 25px;
   text-align: left;
 
 }
@@ -61,18 +61,19 @@ li a:hover {
 /* Control the right side */
 .right {
   right: 0;
-  color: #ffff80;
+  color: 	#FFFF66;
   padding: 50px;
   margin:100px;
   width: 280px;
   height: 350px;
   background-color: rgb(0, 0, 0, 0.8);
-  font-family: 'Cormorant SC';font-size: 20px;
+  font-family: 'Caveat';font-size: 25px;
   text-align: left;
 }
 
 p:nth-of-type(2){
-  font-family:sans-serif, monospace;
+  font-size: 20px;
+  color: #F0E68C
 
 }
 /* If you want the content centered horizontally and vertically */
@@ -82,4 +83,20 @@ p:nth-of-type(2){
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+.push {
+	display: inline-block;
+	position: relative;
+	font-family: 'Caveat';font-size: 23px;
+	text-decoration: none;
+	color: white;
+	background-color: rgb(154,205,50, 0.1);
+	padding: 20px 30px;
+	width: 200px;
+	text-align: center;
+
+}
+.push:active {
+	box-shadow: 0 2px 0 #282425, 0 0 6px #282425, 1px 1px 0px #282425, -1px -1px 0px #282425, 0px 4px 10px rgba(0, 0, 0, .5);
+	top: 2px;
 }
