@@ -65,7 +65,7 @@ p{
 }
 
 div.column {
-  
+  position: absolute;
   margin: 45px;
   border: 1px solid #ccc;
   float: left;
