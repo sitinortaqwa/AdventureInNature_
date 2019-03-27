@@ -31,6 +31,7 @@ li a {
 
 li a:hover {
   background-color: #111;
+  font-weight:bold;
 }
 
 body{
@@ -87,4 +88,5 @@ div.column img {
   padding-bottom: 12px;
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 25px;
+  color:#ffffff;
 }
