@@ -68,7 +68,7 @@ div.column {
   position: relative;
   margin: 45px;
   border: 1px solid #ccc;
-  
+  float: left;
   width: 219px;
 }
 
