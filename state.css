@@ -86,10 +86,10 @@ li a:hover {
   color: white;
   float: right;
   position: absolute;
-  padding: 4px;
+  padding: 2px;
   right: 8%;
   top: 53%;
-  background-color: pink;
+  background-color: black;
   opacity: 0.8;
   width : 30%;
   height: 40vh;
