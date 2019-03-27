@@ -3,7 +3,6 @@
   width: 100%;
   margin: 0 auto;
   padding: 0;
-  top:0;
   overflow: hidden;
   background-color: rgb(0, 0, 0, 0.9);
 }
@@ -31,12 +30,9 @@ li a {
 
 li a:hover {
   background-color: #111;
-  font-weight:bold;
 }
-
 body{
   margin:-8px;
-  background-color:#ffffff;
 }
 
 .title{
@@ -50,23 +46,22 @@ body{
   width: 350px;
   text-align:center;
 }
-
 p{
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 32px;
 }
-
 .main{
   left:12%;
   top: 0;
   bottom: 0;
   padding:30px;
   width:70%;
-/*   background-color: black; */
+  /* background-color: black; */
   color: black;
   position: absolute;
   float: left;
   text-align: center;
+
 }
 
 div.column {
@@ -88,5 +83,5 @@ div.column img {
   padding-bottom: 12px;
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 25px;
-  color:#ffffff;
+
 }
