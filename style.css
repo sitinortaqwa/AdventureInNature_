@@ -33,6 +33,13 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+.logo img{
+  float:left;
+  margin: 10px 10px 10px;
+  width: 100px;
+}
+
 .split {
         height: 100%;
         width: 50%;
