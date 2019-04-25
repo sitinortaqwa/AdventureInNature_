@@ -2,7 +2,7 @@ body{
   margin: -5px;
   }
 
-  
+
   .topbar, ul {
     list-style-type: none;
     width: 100%;
@@ -17,7 +17,6 @@ body{
     font-family: 'Neucha', cursive;
     font-size: 16px;
     color: white;
-    float: left;
   }
 
   li {
@@ -34,6 +33,12 @@ body{
   }
   li a:hover {
     background-color: #111;
+  }
+
+  .logo img{
+    float:left;
+    margin: 10px 10px 10px;
+    width: 100px;
   }
 /* Split the screen in half */
 .split {
