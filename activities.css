@@ -30,8 +30,15 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+.logo img{
+  float:left;
+  margin: 10px 10px 10px;
+  width: 100px;
+}
+
 body{
-  margin:-8px;
+  margin:-5px;
 }
 
 .title{
