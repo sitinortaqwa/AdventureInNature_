@@ -21,7 +21,6 @@ li:nth-of-type(1){
   font-family: 'Neucha', cursive;
   font-size: 16px;
   color: white;
-  float: left;
 }
 
 li {
@@ -38,6 +37,11 @@ li a {
 }
 li a:hover {
   background-color: #111;
+}
+.logo img{
+  float:left;
+  margin: 10px 10px 10px;
+  width: 100px;
 }
 a.liststate:hover, a.liststate:active {
   font-size: 150%;
