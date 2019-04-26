@@ -1,0 +1,110 @@
+body{
+  margin: -5px;
+  }
+
+
+  .topbar, ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0, 0.9);
+  }
+
+  li:nth-of-type(1){
+    display: inline-block;
+    font-family: 'Neucha', cursive;
+    font-size: 16px;
+    color: white;
+  }
+
+  li {
+    float: right;
+  }
+
+  li a {
+    display: block;
+    font-family: 'Neucha', cursive;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+
+  .logo img{
+    float:left;
+    margin: 10px 10px 10px;
+    width: 100px;
+  }
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+}
+.left img {
+  width: 210px;
+  height: 290px;
+  border-radius: 10%;
+  padding: 5px;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+}
+
+.right img {
+  width: 200px;
+  height: 260px;
+  border-radius: 10%;
+  padding: 5px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Abril Fatface';
+  text-align: center;
+  border-width: 7px;
+  border-color: rgb(205,133,63, 0.6);
+  border-style: solid;
+  line-height: 1em;
+  padding: 10px 50px;
+}
+
+.centered p{
+  color: #2F4F4F;
+  font-size: 10px;
+}
+p:nth-of-type(4){
+  color: black;
+  font-size: 13px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+p a:hover {
+  background-color: 	#C71585;
+}
+
+h2 {
+  text-decoration: underline;
+}
