@@ -33,7 +33,7 @@ Future Enhancement : Pagination , List state link in a box , State link with hov
 
 Name : Nurul Atiqah
 
-Contributions : Location, Logo, Logo on navigation bar, Footer
+Contributions : Location, Logo, Footer
 
 Future Enhancement : Pop up windows(map) for each location
 
