@@ -1,4 +1,4 @@
-.topbar, ul {
+.topbar, #nav {
   list-style-type: none;
   width: 100%;
   margin: 0 auto;
@@ -7,19 +7,18 @@
   background-color: rgb(0, 0, 0, 0.9);
 }
 
-li:nth-of-type(1){
+#Nlist:nth-of-type(1){
   display: inline-block;
   font-family: 'Neucha', cursive;
   font-size: 16px;
   color: white;
-  float: left;
 }
 
-li {
+#Nlist {
   float: right;
 }
 
-li a {
+#Nlist a {
   display: block;
   font-family: 'Neucha', cursive;
   color: white;
@@ -27,10 +26,17 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
-li a:hover {
+#Nlist a:hover {
   background-color: #111;
 }
+
+.logo img{
+  float:left;
+  margin: 10px 10px 10px;
+  width: 30px;
+  height: 30px;
+}
+
 body{
   margin:-8px;
 }
@@ -134,3 +140,34 @@ a:hover{
 a{
   text-decoration: none;
 }
+
+/* footer */
+.footer{
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  min-height:40px;
+  text-align: center;
+  font-size: 15px;
+  font-family: sans-serif;
+  background-color: #000;
+}
+#hover a {
+  color: grey;
+  text-decoration: none;
+}
+#Flist{
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+}
+#hover{
+  text-align: inherit;
+  display: inline-block;
+  padding: 0 9px 0 9px;
+  margin: 0 auto;
+  color: grey;
+}
+
