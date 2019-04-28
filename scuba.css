@@ -142,7 +142,7 @@ a{
 }
 /* footer */
 .footer{
-  position: absolute;
+  position: sticky;
   right: 0;
   left: 0;
   bottom: 0;
