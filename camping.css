@@ -168,6 +168,11 @@ a{
   display: inline-block;
   padding: 0 9px 0 9px;
   margin: 0 auto;
-  color: grey;
+  color: #cccccc;
+}
+#hover a:hover{
+  color: #a6a6a6
+}
+
 }
 
