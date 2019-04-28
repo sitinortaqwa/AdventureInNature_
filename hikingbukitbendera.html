@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Accommodation</title>
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Gloria+Hallelujah|Kalam|Kaushan+Script|Neucha|Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="state.css">
+     <link rel="shortcut icon" href="logo1.PNG" type="image/x-icon"/>
+
+
+  </head>
+  <body>
+    <div class="bg">
+       <div class="topbar">
+      <ul id="nav">
+        <div class="logo">
+          <a href="testingproject.html"><img src="logo (no text).png"></a>
+        </div>
+        <li id="Nlist"><a href="upcoming event.html">UPCOMING EVENT</a></li>
+        <li id="Nlist"><a href="activities.html">ACTIVITIES</a></li>
+      </ul>
+    </div>
+
+        <div class="name">
+          <p><a href="http://www.goodluckinn.com/">Good Luck Inn, Penang</a></p>
+        </div>
+        <div class="image">
+          <img class="slide" src="https://s-ec.bstatic.com/images/hotel/max1024x768/549/54941757.jpg" alt="broga">
+          <img class="slide" src="https://t-ec.bstatic.com/images/hotel/max1024x768/549/54942771.jpg" alt="broga">
+          <img class="slide" src="https://www.penang-traveltips.com/0/0-pics/good-luck-inn-01b.jpg" alt="broga">
+        </div>
+        <div class="reviews">
+          <p>R E V I E W S</p>
+        </div>
+          <div class="star">
+              <p>Facility : &#x2730; &#x2730; &#x2730; &#x2730;</p>
+              <p>Price : &#x2730; &#x2730;</p>
+              <p>Service : &#x2730; &#x2730; &#x2730; </p>
+              <p>Food : &#x2730; &#x2730; &#x2730; &#x2730;</p>
+          </div>
+
+    </div>
+
+    <script>
+      var myIndex = 0;
+      carousel();
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("slide");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+      </script>
+    <div class="footer">
+      <footer>
+        <ul>
+          <li id="hover"><a href="about.html">About</a></li>
+          <li id="hover"><a href="upcoming event.html">Upcoming Event</a></li>
+          <li id="hover"><a href="accommodation.html">Accommodation</a></li>
+          <li id="hover"><a href="activities.html">Activities</a></li>
+          <li id="hover" style="letter-spacing: .25em; text-transform: uppercase; line-height: 1.6923;"> | Copyright © 2019 Group Bold</li>
+        </ul>
+      </footer>
+</div>
+
+  </body>
+</html>

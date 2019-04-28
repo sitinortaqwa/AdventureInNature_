@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Accommodation</title>
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Gloria+Hallelujah|Kalam|Kaushan+Script|Neucha|Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="state.css">
+     <link rel="shortcut icon" href="logo1.PNG" type="image/x-icon"/>
+
+
+  </head>
+  <body>
+    <div class="bg">
+       <div class="topbar">
+      <ul id="nav">
+        <div class="logo">
+          <a href="testingproject.html"><img src="logo (no text).png"></a>
+        </div>
+        <li id="Nlist"><a href="upcoming event.html">UPCOMING EVENT</a></li>
+        <li id="Nlist"><a href="activities.html">ACTIVITIES</a></li>
+      </ul>
+    </div>
+
+        <div class="name">
+          <p><a href="https://www.google.com/travel/hotels/Perhentian%20Islands/entity/CgsI29TF077w7_OHARAB/prices?g2lb=4207876%2C4208993%2C4223281%2C4242898%2C4244186%2C4252383%2C4253230%2C4253565%2C4254308%2C4258187%2C4250436%2C4253015%2C4256179%2C4258728&hl=en&gl=my&un=0&q=hotel%20near%20scuba%20diving%20perhentian%20islands&rp=EP2V8eqY_P2gDhDb1MXTvvDv84cBEOT75bOY29HcYBCuuPmpxKHT-7sBOAFAAEgC&ictx=1&ved=2ahUKEwj2jbPF7fLhAhUXT30KHVv_ASwQvS4wAXoECAsQJg&hrf=CgUI4QEQACIDTVlSKhYKBwjjDxAFGA4SBwjjDxAFGA8YASgAkgECIAE&tcfs=EhoaGAoKMjAxOS0wNS0xNBIKMjAxOS0wNS0xNVIA">Coral View Island Resort, Terengganu</a></p>
+        </div>
+        <div class="image">
+          <img class="slide" src="https://images.trvl-media.com/hotels/16000000/15950000/15949400/15949374/e11b0acf_z.jpg" alt="broga">
+          <img class="slide" src="https://previews.agefotostock.com/previewimage/medibigoff/17bacb2e15a86590a0c927823b25207d/rdc-537243.jpg" alt="broga">
+          <img class="slide" src="https://pix10.agoda.net/hotelImages/446/446194/446194_16082610010045829880.jpg" alt="broga">
+        </div>
+        <div class="reviews">
+          <p>R E V I E W S</p>
+        </div>
+          <div class="star">
+              <p>Facility : &#x2730; &#x2730; &#x2730; &#x2730;</p>
+              <p>Price : &#x2730; &#x2730; </p>
+              <p>Service :  &#x2730; &#x2730; &#x2730; &#x2730; &#x2730;</p>
+              <p>Food : &#x2730; &#x2730; &#x2730; &#x2730; </p>
+          </div>
+
+    </div>
+
+    <script>
+      var myIndex = 0;
+      carousel();
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("slide");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+      </script>
+    <div class="footer">
+      <footer>
+        <ul>
+          <li id="hover"><a href="about.html">About</a></li>
+          <li id="hover"><a href="upcoming event.html">Upcoming Event</a></li>
+          <li id="hover"><a href="accommodation.html">Accommodation</a></li>
+          <li id="hover"><a href="activities.html">Activities</a></li>
+          <li id="hover" style="letter-spacing: .25em; text-transform: uppercase; line-height: 1.6923;"> | Copyright © 2019 Group Bold</li>
+        </ul>
+      </footer>
+</div>
+
+  </body>
+</html>
