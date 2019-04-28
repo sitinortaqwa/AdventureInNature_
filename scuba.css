@@ -1,4 +1,4 @@
-.topbar, #nav {
+topbar, #nav {
   list-style-type: none;
   width: 100%;
   margin: 0 auto;
@@ -23,11 +23,12 @@
   font-family: 'Neucha', cursive;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px;
+  margin: 0 auto;
   text-decoration: none;
 }
 #Nlist a:hover {
-  background-color: #111;
+  background-color: #a6a6a6;
 }
 
 .logo img{
@@ -66,7 +67,9 @@ h1{
 }
 section{
   display: block;
-  margin: auto;
+  margin: 0 auto;
+  margin-bottom: 150px;
+
 }
 .content{
   left:15%;
@@ -103,10 +106,10 @@ img{
 .acc{
   display: inline-block;
   text-align: center;
-  float: left;
   font-family: 'Caveat', cursive;
   font-weight: bold;
   font-size: 18px;
+  float: left;
   width: 48%;
   left: 5%;
   padding: 10px;
@@ -117,10 +120,10 @@ img{
 .dir{
   display: inline-block;
   text-align: center;
-  float: left;
   font-family: 'Caveat', cursive;
   font-weight: bold;
   font-size: 18px;
+  float: left;
   width: 48%;
   margin-left: 10px;
   margin: 5px;
@@ -133,39 +136,57 @@ a:link{
   color: white;
 }
 
+a:visited {
+  color: white;
+}
+
 a:hover{
   text-decoration: underline;
+}
+
+a:active {
+  color: white;
 }
 
 a{
   text-decoration: none;
 }
+
 /* footer */
 .footer{
-  position: sticky;
-  right: 0;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  min-height:40px;
+  padding: 5px;
+  margin-top: 100px;
+  background-color: rgb(0, 0, 0, 0.9);
+  color: white;
   text-align: center;
   font-size: 15px;
   font-family: sans-serif;
-  background-color: #000;
+
 }
 #hover a {
-  color: grey;
+  display: block;
+  font-family: 'Neucha', cursive;
+  color: white;
+  text-align: right;
+  padding:5px;
   text-decoration: none;
 }
 #Flist{
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
-  margin-top: 10px;
+
 }
 #hover{
   text-align: inherit;
   display: inline-block;
   padding: 0 9px 0 9px;
   margin: 0 auto;
-  color: grey;
+  color: #cccccc;
+}
+#hover a:hover{
+  color: #a6a6a6
 }
