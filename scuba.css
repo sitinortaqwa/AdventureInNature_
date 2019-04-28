@@ -154,19 +154,16 @@ a{
 
 /* footer */
 .footer{
-  position: relative;
+  position: absolute;
+  right: 0;
   left: 0;
   bottom: 0;
-  top: 20px;
   width: 100%;
-  padding: 20px;
-  margin-top: 100px;
-  background-color: rgb(0, 0, 0, 0.9);
-  color: white;
+  min-height:40px;
   text-align: center;
   font-size: 15px;
   font-family: sans-serif;
-
+  background-color: rgb(0, 0, 0, 0.9);
 }
 #hover a {
   color: grey;
