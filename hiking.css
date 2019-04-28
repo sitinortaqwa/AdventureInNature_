@@ -152,11 +152,12 @@ a{
 
 /* footer */
 .footer{
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
+  top: 20px;
   width: 100%;
-  padding: 5px;
+  padding: 20px;
   margin-top: 100px;
   background-color: rgb(0, 0, 0, 0.9);
   color: white;
@@ -166,25 +167,18 @@ a{
 
 }
 #hover a {
-  display: block;
-  font-family: sans-serif;
-  color: white;
-  text-align: right;
-  padding:5px;
+  color: grey;
   text-decoration: none;
 }
 #Flist{
-  margin: 0;
+  margin: 0 auto;
   text-align: center;
-
+  margin-top: 10px;
 }
 #hover{
   text-align: inherit;
   display: inline-block;
   padding: 0 9px 0 9px;
   margin: 0 auto;
-  color: #cccccc;
-}
-#hover a:hover{
-  color: #a6a6a6
+  color: grey;
 }
