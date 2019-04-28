@@ -1,4 +1,4 @@
-.topbar, #nav {
+topbar, #nav {
   list-style-type: none;
   width: 100%;
   margin: 0 auto;
@@ -23,11 +23,12 @@
   font-family: 'Neucha', cursive;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px;
+  margin: 0 auto;
   text-decoration: none;
 }
 #Nlist a:hover {
-  background-color: #111;
+  background-color: #a6a6a6;
 }
 
 .logo img{
