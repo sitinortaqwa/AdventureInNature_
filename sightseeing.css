@@ -174,7 +174,7 @@ a{
 #Flist{
   margin: 0;
   text-align: center;
-
+  margin-top: 10px;
 }
 #hover{
   text-align: inherit;
