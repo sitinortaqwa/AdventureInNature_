@@ -58,7 +58,7 @@ body{
   height: 25vh;
   color: black;
   text-align: center;
-  margin:2px;
+  margin:1px;
   border-top: 3px solid black;
   border-bottom: 3px solid black;
   font-size: 45px;
@@ -82,7 +82,7 @@ body{
   font-size: 35px;
   color: black;
   float: right;
-  position: absolute;
+  position: fixed;
   right: 24%;
   text-decoration: underline;
 }
@@ -90,7 +90,7 @@ body{
   font-size: 25px;
   color: white;
   float: right;
-  position: absolute;
+  position: fixed;
   padding: 2px;
   right: 8%;
   top: 53%;
@@ -107,7 +107,7 @@ a:hover{
 }
 
 .booking{
-  position: absolute;
+  position: fixed;
   float: right;
   top: 97%;
   right: 31.5%;
