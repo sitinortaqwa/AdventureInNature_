@@ -75,6 +75,8 @@ p{
   float: left;
   text-align: center;
   z-index: 0;
+  clear: both;
+  float: left;
 
 }
 
@@ -89,8 +91,7 @@ div.column {
   width: 230px;
   -webkit-transition: width 1s, height 1s; /* Safari */
   transition: width 1s, height 1s;
-  clear: both;
-  float: left;
+  
 
 }
 
