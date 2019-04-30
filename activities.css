@@ -115,7 +115,7 @@ div.column:hover {
 }
 /* footer */
 .footer{
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   top: 20px;
