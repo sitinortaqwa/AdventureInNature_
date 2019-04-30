@@ -68,7 +68,7 @@ p{
   left:8%;
   top: 12px;
   padding:20px;
-  width:90%;
+  width:80%;
   /* background-color: black; */
   color: black;
   position: absolute;
@@ -89,6 +89,8 @@ div.column {
   width: 230px;
   -webkit-transition: width 1s, height 1s; /* Safari */
   transition: width 1s, height 1s;
+  clear: both;
+  float: left;
 
 }
 
@@ -97,6 +99,7 @@ div.column:hover {
   background-color: #000000;
   width: 240px;
   height:200px;
+  
 
 }
 
