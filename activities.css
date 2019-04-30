@@ -75,7 +75,6 @@ p{
   float: left;
   text-align: center;
   z-index: 0;
-  
 
 }
 
@@ -90,7 +89,6 @@ div.column {
   width: 230px;
   -webkit-transition: width 1s, height 1s; /* Safari */
   transition: width 1s, height 1s;
-  
 
 }
 
@@ -99,7 +97,6 @@ div.column:hover {
   background-color: #000000;
   width: 240px;
   height:200px;
-  
 
 }
 
@@ -118,9 +115,8 @@ div.column:hover {
   position: fixed;
   left: 0;
   bottom: 0;
-  top: 20px;
   width: 100%;
-  padding: 20px;
+  padding: 5px;
   margin-top: 100px;
   background-color: rgb(0, 0, 0, 0.9);
   color: white;
@@ -129,14 +125,19 @@ div.column:hover {
   font-family: sans-serif;
 
 }
+
 #hover a {
-  color: grey;
+  display: block;
+  font-family: sans-serif;
+  color: white;
+  text-align: right;
+  padding:5px;
   text-decoration: none;
 }
 #Flist{
   margin: 0;
   text-align: center;
-  margin-top: 10px;
+
 }
 #hover{
   text-align: inherit;
