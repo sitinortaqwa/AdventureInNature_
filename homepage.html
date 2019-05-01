@@ -14,9 +14,9 @@
     <div class="topbar">
       <ul id="nav">
         <div class="logo">
-          <a href="testingproject.html"><img src="logo (no text).png"></a>
+          <a href="homepage.html"><img src="logo (no text).png"></a>
         </div>
-        <li id="Nlist"><a href="upcoming event.html">UPCOMING EVENT</a></li>
+        <li id="Nlist"><a href="upcomingevent.html">UPCOMING EVENT</a></li>
         <li id="Nlist"><a href="activities.html">ACTIVITIES</a></li>
       </ul>
     </div>
@@ -35,7 +35,7 @@
     <div class="column">
       <div class="card">
         <div class="container">
-          <div class="fotorama" data-autoplay="3000"
+        <!--  <div class="fotorama" data-autoplay="3000"
                    data-clicktransition="crossfade">
               <img src="four.jfif"
                    thumbwidth="50px"
@@ -51,6 +51,18 @@
               <img src="sinqo.jpg" alt="">
 
           </div>
+        -->
+
+
+        <div class="image">
+          <img class="slide" src="four.jfif">
+             <img class="slide" src="uno.jpg" alt="">
+             <img class="slide" src="dos.jpg" alt="">
+             <img class="slide" src="tres.jpg" alt="">
+             <img class="slide" src="quatro.jpg" alt="">
+             <img class="slide" src="sinqo.jpg" alt="">
+        </div>
+
              <p>Let the nature help, as we guide you</p>
              <div class="second">
                <a class="push" href="activities.html"><button>Lets get started!</button></a>
@@ -58,15 +70,27 @@
         </div>
       </div>
     </div>
+    <script>
+      var myIndex = 0;
+      carousel();
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("slide");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+      </script>
     <div class="footer">
-      <footer>
-        <ul id="Flist">
-          <li id="hover"><a href="about.html">About Us</a></li>
-          <li id="hover"><a href="accommodation.html">Accommodation</a></li>
-          <li id="hover"><a href="upcoming event.html">Upcoming Event</a></li>
-          <li id="hover"> © 2019</li>
-        </ul>
-      </footer>
+     <ul id="Flist">
+       <li id="hover"><a href="about.html">About Us</a></li>
+       <li id="hover" style="letter-spacing: .25em; text-transform: uppercase; line-height: 1.6923;"> | Copyright © 2019 Group Bold</li>
+     </ul>
+    </div>
 
   </body>
 </html>
