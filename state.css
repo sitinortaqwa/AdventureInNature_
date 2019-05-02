@@ -75,6 +75,7 @@ topbar, #nav {
   border-top: 3px solid black;
   border-bottom: 3px solid black;
   font-size: 45px;
+  background-color: white;
 }
 .image img{
   margin: 8px;
